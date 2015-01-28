@@ -1,0 +1,114 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    text-align: center;
+    color: #FBFBFB;
+    height: 603px;
+    background-color: #EBEBEB;
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+header h1{
+    font-size: 68px;
+}
+
+#bio{
+    height: 266px;
+    display: inline-block;
+    width: 100%;
+    text-align: justify;
+}
+
+#bio p{
+    line-height: 45px;
+    color: #D5D5D5;
+    font-size: 17px;
+}
+
+.bazzinga{
+    color: #F399BC;
+}
+
+.wrapper{
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+#gallery{
+    display: inline-block;
+    height: 560px;
+    background-color: white;
+    width: 100%;
+}
+
+.row{
+    width: 100%;
+}
+
+.column{
+    width: 49.8%;
+    height: 280px;
+    background-size: cover;
+    display: inline-block;
+}
+
+.column1{
+    background-image: url('../img/1.png');
+}
+
+.column2{
+    background-image: url('../img/2.png');
+}
+
+.column3{
+    background-image: url('../img/3.png');
+}
+
+.column4{
+    background-image: url('../img/4.png');
+}
+
+/* footer */
+
+footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    background-color: #244359;
+}
+
+footer p{
+    color: rgb(196, 196, 213);
+    font-size: 14px;
+}
+
+.wrapper-social{
+    display: inline-block;
+    vertical-align: middle;
+}
+.social-links{
+    list-style: none;
+}
+
+.social-links li{
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.icon-twitter:before{
+    content: url('../img/twitter.png')
+}
+
+.icon-facebook:before{
+    content: url('../img/facebook.png')
+}
+
+.icon-instagram:before{
+    content: url('../img/instagram.png')
+}
